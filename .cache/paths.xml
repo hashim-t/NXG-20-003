@@ -951,4 +951,52 @@
 			<string>ni-visa-base-src-20.0.0_15.niaddoncache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>ni-instrumentdriver-keysight344xx-src-20.0.0_f3073810187e485f9dee4a16bd512145.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-instrumentdriver-keysight344xx-src-20.0.0_16.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-skyline-tdmreader-src-20.0.0_c541b2fdd360402e95e88d735ca0caab.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-skyline-tdmreader-src-20.0.0_16.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-visa-base-src-20.0.0_812e188badbb4cb5ae9c0af5329db2bd.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-visa-base-src-20.0.0_16.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-instrumentdriver-keysight344xx-src-20.0.0_d8cf2b2740364d6baff1be9072a5bf13.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-instrumentdriver-keysight344xx-src-20.0.0_17.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-skyline-tdmreader-src-20.0.0_a479dc2cb9d4482bba3b34be032b80ba.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-skyline-tdmreader-src-20.0.0_17.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>ni-visa-base-src-20.0.0_2217345f71cd4d6384463bd6cf159fd5.niaddoncache</string>
+		</key>
+		<value>
+			<string>ni-visa-base-src-20.0.0_17.niaddoncache</string>
+		</value>
+	</item>
 </SerializableDictionary>
