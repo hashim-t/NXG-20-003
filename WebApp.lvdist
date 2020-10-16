@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8C03B91435B0C19D2406720DFC972E73CB1318C9DF8592088EA4655957D29DC2EBE8D4740DAD646DFE178A5DD5FE5D8E09D50E000EDE66B714351E692E302AED" Timestamp="1D68835F4AC4D73" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="Sasyaka Engineering Solutions" Product="WebApp" ShortDescription="Sasyaka Engineering Solutions 20-003" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="4edf8d8a398848318849132c3709262a" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="sasyakaengineeringsolutions-20-003" p3:DistributionCategory="Application" p3:MaintainerEmail="kunal.p@sasyaka.com" p3:MaintainerName="Sasyaka Engineering Solutions" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="4e48a5a166cc449baddfd92a3553a33c" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="e2f4be74fbc34b5185aceb9547784916" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="b256231c0cdb4a3988caeeb5520ee30f" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="20.0.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
