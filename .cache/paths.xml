@@ -999,4 +999,28 @@
 			<string>ni-visa-base-src-20.0.0_17.niaddoncache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>NI.SL.Message_bb9b6d8bff409fb57bfb97c756a99a_fe6151326a364a2ba20e5f6172d02f33.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Message.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.User Interface_7052a3385e24541a1a2a9ebfbf3500d_48a74df3eec24094b70d4d9a4f4037a4.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.User Interface.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.User Interface_7052a3385e24541a1a2a9ebfbf3500d_7af870594c45412d831dffc6d0005a3d.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.User Interface_1.gcompcache</string>
+		</value>
+	</item>
 </SerializableDictionary>
