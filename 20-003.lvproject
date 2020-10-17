@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FA9523E4859EB9D54B96FC1961D6F6444F54766A04BE261D5D81C6EEF6C8D7ED9B8C58DFD7B1005B8F1F21E5C8BCCD90E65F045A4D81CD7BBF218E14A35625A6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C51E12E83ECB44B497C33EC76FF9BB9D20D41B218BD2F94997921C9126E67AE0C3BC4FA614AE0C02F59518FD9250A8B5272AB54C83A96C89F9A348AA08948B84" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -398,6 +398,7 @@
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Id="7a99097826e74dad8bef1318ae45327d" ModelDefinitionType="DistributionDefinition" Name="WebApp.lvdist" StoragePath="WebApp.lvdist" />
 			<SourceFileReference Bindings="EnvoyManager" Id="940f5999cd63487485432ac082ead404" ModelDefinitionType="{http://www.ni.com/Data}DataIndexDefinition" Name="data.xml" StoragePath="NI Project Data\data.xml" />
+			<SourceFileReference Id="d653709c6f1e4baf91669f0496c605a0" ModelDefinitionType="DistributionDefinition" Name="Package.lvdist" StoragePath="Package.lvdist" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="782e3a7bbbf5413982e63628cb859668" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>

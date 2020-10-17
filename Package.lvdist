@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B9813F55B780397E19FE3E983062B0EC98DEDE6EB81525C4159C8A60E4CF4F38EB797A31A8194AC0F65A0B0FD66FF4FB89269BDA5F8D2612C6233B312FA333D6" Timestamp="1D6A47A12E77F1D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="Sasyaka" Product="WebApp" ShortDescription="Sasyaka 20-003" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="5ae3f71a78e64883975ab2377b214809" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="sasyaka-20-0032" p3:DistributionCategory="Addon" p3:MaintainerEmail="info@sasyaka.com" p3:MaintainerName="Sasyaka" p3:PackageDisplayName="Package" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="9ff48f384ad5485faea25c7378dad6cd" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="5c86ffd38f34617828bda81f763046b" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" Target="::DevSystem::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG" Id="ca0768cea8de459786738f4e3ef92df9" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0" Version="8.1.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG G Standard Library Files" Id="55aa6c7378fc4e94acb7abb28a0aca42" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0-g-stdlib-bin" Version="8.1.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG HTTP Library Files" Id="4153a9c2f84b43eab7d7e59de0e026f2" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0-http-bin" Version="8.1.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
