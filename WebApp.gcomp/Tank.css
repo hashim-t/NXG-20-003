@@ -1,0 +1,61 @@
+/*
+change the colour of scale of tank control.
+*/
+.Scale {
+    --ni-foreground-color: white !important;
+}
+
+/*
+change the colour of tick label in graph.
+*/
+.TickLabel .flot-x-axis text,
+.TickLabel .flot-y-axis text {
+    fill: white;
+}
+
+/*
+change the colour of Axix label in graph.
+*/
+.AxixLabel text.axisLabels {
+    fill: white;
+}
+
+/*
+Round corners on button	
+*/
+.RoundCorner button {
+    border-radius: 1em;
+}
+
+/*
+boarder around most controls.
+*/
+.Boarder {
+    --ni-border: 4px solid white;
+}
+
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericControl {
+    --ni-foreground-color: white !important;
+}
+
+/*
+Remove background color from Numeric, String or Timestamp Controls.
+*/
+.RemoveBackgroundColour {
+    --ni-control-background-color: transparent;
+    --ni-border: none;
+}
+
+/*
+not working: Make round corners for tank control.
+*/
+BoarderRadius {
+    border-radius: 1em !important;
+}
+
+.Colour {
+    fill: black;
+}
