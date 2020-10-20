@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="268C4C42C61182C68A9E501A3A019B7C152994C2E00F3F27F8D0BBC7B10F9EC7A444AD27087CBFB41C176847BE28FD77AC1307D537896D031B6544905F7A2383" Timestamp="1D6A3B31E8D5A0B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="943056458775BA8C380E24DEB2C742942D0F794FC8F84EC2F6166A613D95EEF52E90D5BFD45E591E0D0A78C3DAD49847F8C6ED286794404B7D3DE3918B2597B6" Timestamp="1D6A5F9853867C0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -26,7 +26,7 @@
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
 				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Simulate Top level.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Simulate Top level.gviweb" />
 				<SourceFileReference Id="3c04c9104972485a9bc7e93383bb76a1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Old HMI.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Old HMI.gviweb" />
-				<SourceFileReference Id="9ef2e1b4900d468d90186b59215797d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="HMI.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="HMI.gviweb" />
+				<SourceFileReference Id="9ef2e1b4900d468d90186b59215797d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<SourceFileReference Id="d1d2b3ff14f44256baddcc9edfd82d38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keypad.gvi" StoragePath="Keypad.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
