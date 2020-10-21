@@ -1,0 +1,3 @@
+.Tank Scale Colour{
+    --ni-foreground-colour: white !important;
+}

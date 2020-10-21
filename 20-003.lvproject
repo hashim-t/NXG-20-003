@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="198D4641FC607FB6A7DD3BEB7E39A241968A0EEA64D584102F048CDE8F4EED9EE78AF5E4C385A16E56CEC86361BCA04C9C29651D7C0E7123235CF7D1233FBD83" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A8109BCA1352BD6A486DC683B27BE2663D6A076D1E7A4ADC98BEE902617904A583A79025EF9FB1A360278B3680A21451554FEE1AC09762DDC3FA6031591224ED" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -214,6 +214,7 @@
 								<GLibraryProperties Id="7c9794fd203049bcb1260967856df2c2" />
 							</ComponentConfiguration>
 						</ComponentDefinition>
+						<FileReference Bindings=".jpg" Id="b48c3b473d9c414abab67b7e2b2834db" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle.jpg" StoragePath="Custom UI Elements\TileStyle.jpg" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/LabVIEW.NativeBackEndCompiler}ComponentExecution_NativeApplication" Id="41df0bf88fbe432eaeaba121560a5bc5" ModelDefinitionType="ComponentDefinition" Name="WebApp.gcomp" StoragePath="WebApp.gcomp\WebApp.gcomp" />
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/LabVIEW.NativeBackEndCompiler}ComponentExecution_NativeApplication" Id="dfd8d8a4ddc34f3e9ce926e2fddf0b55" ModelDefinitionType="ComponentDefinition" Name="Application.gcomp" StoragePath="..\2020_06_12_18_42_06\LooseFiles.lvproject\Application.gcomp\Application.gcomp" />

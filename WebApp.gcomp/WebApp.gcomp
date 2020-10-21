@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A5229F27D2106A99DE9E1A69F786121B5E15242A818FB6DAC243839A6AC6BC79CCB9EADF054051C1BBE910BDA77FB238495293FAC50075699E774F522998EB67" Timestamp="1D6A6D22C554EE4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1685B620FA5F9FC047F8AADDAD5DB78307F68694F255F24BD00E54F36797061EE496AAC70EE0253120A9BE4326F5AAEC0774319B89E9C6DFF47D219F3F87E70B" Timestamp="1D6A76B61FF5690" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -18,6 +18,7 @@
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9ef2e1b4900d468d90186b59215797d7" Id="f01a94cde8a74c67a85ed81fc645049a" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="79bacc3009e1479aa6f5904a975cecc4" Id="5040be8637224751be5a89b9d2a5ddfb" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6ec1c64f63e8442da5a67fb320cce413" Id="cfbd8254deee45e9968ac041670e6aae" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -30,6 +31,7 @@
 				<SourceFileReference Id="9ef2e1b4900d468d90186b59215797d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<SourceFileReference Id="d1d2b3ff14f44256baddcc9edfd82d38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keypad.gvi" StoragePath="Keypad.gvi" />
 				<FileReference Bindings=".css" Id="79bacc3009e1479aa6f5904a975cecc4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Tank.css" StoragePath="Tank.css" />
+				<FileReference Bindings=".jpg" Id="6ec1c64f63e8442da5a67fb320cce413" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle.jpg" StoragePath="TileStyle.jpg" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
