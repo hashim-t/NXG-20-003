@@ -49,9 +49,44 @@ Remove background color from Numeric, String or Timestamp Controls.
     --ni-border: none;
 }
 
+
+.BackGroundTransparent {
+    --ni-indicator-background-color: transparent;
+    --ni-border: none
+}
+
+
 /*
-not working: Make round corners for tank control.
+Color the text on Numeric Controls or Indicator.
 */
-BoarderRadius {
-    border-radius: 1em !important;
+.ColorTextNeumericIndicatorVti {
+    --ni-foreground-color: blue !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorVte {
+    --ni-foreground-color: yellow !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorMvol {
+    --ni-foreground-color: red !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorRate {
+    --ni-foreground-color: black !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorFio {
+    --ni-foreground-color: red !important;
+}
+
+.BackgroundColour {
+    --ni-background-color: black !important;
 }
