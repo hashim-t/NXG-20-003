@@ -50,37 +50,43 @@ Color the text on Numeric Controls or Indicator.
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorVti {
-    --ni-foreground-color: blue !important;
+    --ni-foreground-color: #2BA82C !important;
 }
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorVte {
-    --ni-foreground-color: yellow !important;
+    --ni-foreground-color: #FCB104 !important;
 }
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorMvol {
-    --ni-foreground-color: red !important;
+    --ni-foreground-color: #F75222 !important;
 }
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorRate {
-    --ni-foreground-color: black !important;
+    --ni-foreground-color: #FFFFFF !important;
 }
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorFio {
-    --ni-foreground-color: red !important;
+    --ni-foreground-color: #F75222 !important;
 }
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericIndicatorVolume {
-    --ni-foreground-color: green !important;
+    --ni-foreground-color: #2BA82C !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorWhite {
+    --ni-foreground-color: #FFFFFF !important;
 }
 /*
 Remove background color from Numeric, String or Timestamp indicator.
@@ -96,6 +102,12 @@ Remove background color from Numeric, String or Timestamp Controls.
 .RemoveBackgroundColour {
     --ni-control-background-color: transparent;
     --ni-border: none;
+}
+/*
+Remove background color from Numeric, String or Timestamp Controls.
+*/
+.RemoveBackgroundColourWithBoarder {
+    --ni-control-background-color: transparent;
 }
 /*STRING INDICATOR*/
 /*
