@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="297E1EF635B623DF54E00B553A388C4676B3E4B0713DE771238AB4BF3B1F51C90F6A08A42FC96CBD43A45BB4284F9ADC6C026B093A9A52EC4C65D256C68116B9" Timestamp="1D6AE9DE4F703D3" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F2A0D0573EF7209A2880CE8CC19DC76925A0E3631CF5CAB814116ECD5AD504F64AE2AFCC8621A2EB8F5C78F09B1FF9FA0679A057C837FB03311C3B2615CFCE01" Timestamp="1D6B43386C68545" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -15,6 +15,54 @@
 					<TDMSGroupDefinition GroupName="Capture 1" Source="index.gviweb" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/30/2020 09:20:22" xmlns="http://www.ni.com/Data" />
 					<EmbeddedDefinitionReference Id="6c60a7dd806f48b3897ac31f96c0ea4c" ModelDefinitionType="TDMSDataItemDefinition" Name="timeout">
 						<TDMSDataItemDefinition DataName="timeout" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="f2d098a44f444d4e8e93b85fc064a095" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Data-2020-11-06 115401 809.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="745970dee32c4676abe565bad52ad5f0" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
+					<TDMSGroupDefinition GroupName="Capture 2" Source="Prompt.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="11/06/2020 11:54:01" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="23017cc46c7d48449a6d72e51dc713a6" ModelDefinitionType="TDMSDataItemDefinition" Name="error in">
+						<TDMSDataItemDefinition DataName="error in" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ef954d4e63da453db586ddeb55daaab9" ModelDefinitionType="TDMSDataItemDefinition" Name="error out">
+						<TDMSDataItemDefinition DataName="error out" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="62a941bae811472fb419c96faec0abd3" ModelDefinitionType="TDMSDataItemDefinition" Name="value">
+						<TDMSDataItemDefinition DataName="value" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ec1df7ac68d34ad28438d2b3bc34455f" ModelDefinitionType="TDMSDataItemDefinition" Name="message">
+						<TDMSDataItemDefinition DataName="message" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="20ab0ec467ff485f9dd9af530fcaba22" ModelDefinitionType="TDMSDataItemDefinition" Name="default_2">
+						<TDMSDataItemDefinition DataName="default" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="3d28ad9d5ac64a5f85487b51b77ecb99" ModelDefinitionType="TDMSDataItemDefinition" Name="cancelled?">
+						<TDMSDataItemDefinition DataName="cancelled?" DataType="Boolean" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="ce462aa875824ed2b02487a969a6df50" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2020-11-06 115405 033.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="4a5bf0a4b4634141a5191cecad3503a1" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
+					<TDMSGroupDefinition GroupName="Capture 3" Source="Prompt.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="11/06/2020 11:54:05" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="241bef3a9a954977bf07041699d3bb21" ModelDefinitionType="TDMSDataItemDefinition" Name="error in_2">
+						<TDMSDataItemDefinition DataName="error in" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="3fe6ae3aeaae45428067a01d9c3a8218" ModelDefinitionType="TDMSDataItemDefinition" Name="error out_2">
+						<TDMSDataItemDefinition DataName="error out" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4fd1553b872746afbe0088140a389e85" ModelDefinitionType="TDMSDataItemDefinition" Name="value_2">
+						<TDMSDataItemDefinition DataName="value" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b3c1589afd9645ad8a4229ecb3126b75" ModelDefinitionType="TDMSDataItemDefinition" Name="message_2">
+						<TDMSDataItemDefinition DataName="message" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="257be06ad98d46b08cde786bcc0150b1" ModelDefinitionType="TDMSDataItemDefinition" Name="default_3">
+						<TDMSDataItemDefinition DataName="default" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="1c952ad4a541499a8492b4a1a528c175" ModelDefinitionType="TDMSDataItemDefinition" Name="cancelled?_2">
+						<TDMSDataItemDefinition DataName="cancelled?" DataType="Boolean" xmlns="http://www.ni.com/Data" />
 					</EmbeddedDefinitionReference>
 				</EmbeddedDefinitionReference>
 			</EmbeddedDefinitionReference>

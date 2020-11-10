@@ -1,10 +1,11 @@
+/*TANK CONTROL*/
 /*
 change the colour of scale of tank control.
 */
 .Scale {
     --ni-foreground-color: white !important;
 }
-
+/*GRAPH*/
 /*
 change the colour of tick label in graph.
 */
@@ -12,35 +13,95 @@ change the colour of tick label in graph.
 .TickLabel .flot-y-axis text {
     fill: white;
 }
-
 /*
 change the colour of Axix label in graph.
 */
 .AxixLabel text.axisLabels {
     fill: white;
 }
-
+/*
+Remove border of Charts/Graphs.
+*/
+.RemoveBorderChart {
+    border: none;
+}
+/*BUTTON*/
 /*
 Round corners on button	
 */
 .RoundCorner button {
-    border-radius: 1em;
+    border-radius: .5em;
+}
+/*
+Round corners on button	
+*/
+.RoundCornerPause button {
+    border-radius: 2em;
 }
 
 /*
 boarder around most controls.
 */
 .Boarder {
-    --ni-border: 4px solid white;
+    --ni-border: 1px solid white;
 }
-
+/*NUMERIC INDICATOR*/
 /*
 Color the text on Numeric Controls or Indicator.
 */
 .ColorTextNeumericControl {
     --ni-foreground-color: white !important;
 }
-
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorVti {
+    --ni-foreground-color: #2BA82C !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorVte {
+    --ni-foreground-color: #FCB104 !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorMvol {
+    --ni-foreground-color: #F75222 !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorRate {
+    --ni-foreground-color: #FFFFFF !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorFio {
+    --ni-foreground-color: #F75222 !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorVolume {
+    --ni-foreground-color: #2BA82C !important;
+}
+/*
+Color the text on Numeric Controls or Indicator.
+*/
+.ColorTextNeumericIndicatorWhite {
+    --ni-foreground-color: #FFFFFF !important;
+}
+/*
+Remove background color from Numeric, String or Timestamp indicator.
+*/
+.RemoveBackgroundColourIndicator {
+    --ni-indicator-background-color: transparent;
+    --ni-border: none;
+}
+/*NUMERIC CONTROLLS*/
 /*
 Remove background color from Numeric, String or Timestamp Controls.
 */
@@ -48,45 +109,31 @@ Remove background color from Numeric, String or Timestamp Controls.
     --ni-control-background-color: transparent;
     --ni-border: none;
 }
-
-
-.BackGroundTransparent {
+/*
+Remove background color from Numeric, String or Timestamp Controls.
+*/
+.RemoveBackgroundColourWithBoarder {
+    --ni-control-background-color: #2F2F2F;
+}
+/*STRING INDICATOR*/
+/*
+Color the text on String Controls or Indicators
+*/
+.StringTextColor {
+    --ni-foreground-color: white !important;
+}
+/*
+Remove background color from Numeric, String or Timestamp Indicators
+*/
+.StringIndicatorBCKTransparent {
     --ni-indicator-background-color: transparent;
     --ni-border: none
 }
-
-
+/*ENUM*/
 /*
-Color the text on Numeric Controls or Indicator.
+Change background or foreground colors on Enums
 */
-.ColorTextNeumericIndicatorVti {
-    --ni-foreground-color: blue !important;
-}
-/*
-Color the text on Numeric Controls or Indicator.
-*/
-.ColorTextNeumericIndicatorVte {
-    --ni-foreground-color: yellow !important;
-}
-/*
-Color the text on Numeric Controls or Indicator.
-*/
-.ColorTextNeumericIndicatorMvol {
-    --ni-foreground-color: red !important;
-}
-/*
-Color the text on Numeric Controls or Indicator.
-*/
-.ColorTextNeumericIndicatorRate {
-    --ni-foreground-color: black !important;
-}
-/*
-Color the text on Numeric Controls or Indicator.
-*/
-.ColorTextNeumericIndicatorFio {
-    --ni-foreground-color: red !important;
-}
-
-.BackgroundColour {
-    --ni-background-color: black !important;
+.EnumColor {
+   --ni-selected-background: yellow;
+   --ni-selected-foreground-color: red;
 }

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="AB7A8E49E2A2EEA621A4C3EF129D27714B6A7672E47074897267D20D6744C5A6AB71B58F4A38AE3A300B42D377258D3B67EC3D7A08A5D8C5DA8F24BE53E61BDC" Timestamp="1D6B7267DD0156E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="8eb6c22d6b844beb8d09fa6cccc64d7b" RootNamespaceId="14a8d0ea90764e6ab378d08852cdf4c0" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="c222a373b10a4afe9576bfc07b9d86ec" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6acfd44606a940538560db4f3e1f7b7d" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="7be086d0c9264aebb61ab1cd578eb1a4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="6b91b52537374728aa05c976d7dfe08b" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="14c06930eb024c51b68917c690e180b5" Name="Configuration1">
+			<CompilerSymbolTable Id="7c0f1ef05b6547c287d160333380e006" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="b1f00c5ccfad4b78a8dc56c8b51c0b89" />
+			<ComponentItemProperties AssociatedEnvoyId="21d54c98993f4ca3822f1772a15fbf6a" Exported="True" Id="52593d97e39c44179b8e2cb8e173704a" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="ffe0c0a4cd404156b1e9d3a0079d66c8" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="d6c870f0027b443e8a1fa84f9509c29e" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="88c3f59b45224122a28605074cf243ba" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14a8d0ea90764e6ab378d08852cdf4c0" Name="NumPad">
+				<SourceFileReference Bindings="EnvoyManager" Id="21d54c98993f4ca3822f1772a15fbf6a" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="NumPad.jsli" StoragePath="NumPad.jsli" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="e6e5eb98e24e4d20b5bd590eb4d24326" Name="NumPad.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="14c06930eb024c51b68917c690e180b5" Id="c0025f473dc0477a8161bfbf36243e17" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
