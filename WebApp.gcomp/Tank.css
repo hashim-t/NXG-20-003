@@ -30,8 +30,8 @@ change the colour of Axix label in graph.
 /*
 Remove border of Charts/Graphs.
 */
-.Remove {
-    border: white;
+.TabControlBorder {
+    --ni-border: none;
 }
 /*BUTTON*/
 /*

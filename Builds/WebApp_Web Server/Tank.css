@@ -1,3 +1,11 @@
+/*ENUM*/
+/*
+Change background or foreground colors on Enums
+*/
+.EnumColor {
+   --ni-selected-background: yellow;
+   --ni-selected-foreground-color: red;
+}
 /*TANK CONTROL*/
 /*
 change the colour of scale of tank control.
@@ -22,8 +30,8 @@ change the colour of Axix label in graph.
 /*
 Remove border of Charts/Graphs.
 */
-.RemoveBorderChart {
-    border: none;
+.Remove {
+    border: white;
 }
 /*BUTTON*/
 /*
@@ -128,12 +136,4 @@ Remove background color from Numeric, String or Timestamp Indicators
 .StringIndicatorBCKTransparent {
     --ni-indicator-background-color: transparent;
     --ni-border: none
-}
-/*ENUM*/
-/*
-Change background or foreground colors on Enums
-*/
-.EnumColor {
-   --ni-selected-background: yellow;
-   --ni-selected-foreground-color: red;
 }
