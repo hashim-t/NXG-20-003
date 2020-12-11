@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< .mine
+<<<<<<< .mine
+<SourceFile Checksum="DF1B7CF1F380C2B57AE28C7CC1BB2F5234E4F9162C0936C0D73D63DE6E94A23CB432881C33837CFDF375CCE558C412E0730F5CEFB6E9F81BBDDD3D3F4C320BEC" Timestamp="1D6B8DBFEC67FBB" xmlns="http://www.ni.com/PlatformFramework">
+||||||| .r16
 <SourceFile Checksum="BB204A4AE02FFDA7666F60E55A2733F314C929CF50349CDF9A0A636030279C6412BBE95F9F7E1437402DE582BC2B6761857179A23BBA567A32A3C85A3113D951" Timestamp="1D6B68F7C886667" xmlns="http://www.ni.com/PlatformFramework">
+=======
+<SourceFile Checksum="943056458775BA8C380E24DEB2C742942D0F794FC8F84EC2F6166A613D95EEF52E90D5BFD45E591E0D0A78C3DAD49847F8C6ED286794404B7D3DE3918B2597B6" Timestamp="1D6A5F9853867C0" xmlns="http://www.ni.com/PlatformFramework">
+||||||| .r7
+<SourceFile Checksum="943056458775BA8C380E24DEB2C742942D0F794FC8F84EC2F6166A613D95EEF52E90D5BFD45E591E0D0A78C3DAD49847F8C6ED286794404B7D3DE3918B2597B6" Timestamp="1D6A5F9853867C0" xmlns="http://www.ni.com/PlatformFramework">
+=======
+<SourceFile Checksum="BB204A4AE02FFDA7666F60E55A2733F314C929CF50349CDF9A0A636030279C6412BBE95F9F7E1437402DE582BC2B6761857179A23BBA567A32A3C85A3113D951" Timestamp="1D6B68F7C886667" xmlns="http://www.ni.com/PlatformFramework">
+>>>>>>> .r18
+>>>>>>> .r7
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -17,6 +29,10 @@
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9ef2e1b4900d468d90186b59215797d7" Id="f01a94cde8a74c67a85ed81fc645049a" TopLevel="True" />
+<<<<<<< .mine
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="55f9b2e3b6e546bb9b1177aa6f65fdd3" Id="c53eb57219c4ee688a51e4596b9fc99" />
+||||||| .r7
+=======
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="79bacc3009e1479aa6f5904a975cecc4" Id="5040be8637224751be5a89b9d2a5ddfb" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6ec1c64f63e8442da5a67fb320cce413" Id="cfbd8254deee45e9968ac041670e6aae" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="bc75797fabc64ee39c268d4f63236cec" Id="43c9a685ef6a45c2a54f756443c8e81c" />
@@ -24,6 +40,7 @@
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="72104d6a63ee4613abbdfcab43f9ae39" Id="55217c4696db43438031cdf72f85d1d5" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c854e5343bd548d19ac8f1ffedfb7fca" Id="9e4fea8dd8d2470a92667de5b1e6596f" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="a698f881c3b2418c9c506cf88ce52964" Id="95506365c82a4bbab6a0a23df4146691" />
+>>>>>>> .r18
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -35,6 +52,10 @@
 				<SourceFileReference Id="3c04c9104972485a9bc7e93383bb76a1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Old HMI.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Old HMI.gviweb" />
 				<SourceFileReference Id="9ef2e1b4900d468d90186b59215797d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<SourceFileReference Id="d1d2b3ff14f44256baddcc9edfd82d38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keypad.gvi" StoragePath="Keypad.gvi" />
+<<<<<<< .mine
+				<FileReference Bindings=".png" Id="55f9b2e3b6e546bb9b1177aa6f65fdd3" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Black.png" StoragePath="Black.png" />
+||||||| .r7
+=======
 				<FileReference Bindings=".css" Id="79bacc3009e1479aa6f5904a975cecc4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Tank.css" StoragePath="Tank.css" />
 				<FileReference Bindings=".jpg" Id="6ec1c64f63e8442da5a67fb320cce413" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle.jpg" StoragePath="TileStyle.jpg" />
 				<FileReference Bindings=".jpg" Id="bc75797fabc64ee39c268d4f63236cec" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle_2.jpg" StoragePath="TileStyle_2.jpg" />
@@ -42,6 +63,7 @@
 				<FileReference Bindings=".png" Id="72104d6a63ee4613abbdfcab43f9ae39" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle_4.png" StoragePath="TileStyle_4.png" />
 				<FileReference Bindings=".jpg" Id="c854e5343bd548d19ac8f1ffedfb7fca" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle_6.jpg" StoragePath="TileStyle_6.jpg" />
 				<FileReference Bindings=".png" Id="a698f881c3b2418c9c506cf88ce52964" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TileStyle_7.png" StoragePath="TileStyle_7.png" />
+>>>>>>> .r18
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">

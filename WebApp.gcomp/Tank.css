@@ -6,6 +6,13 @@ Change background or foreground colors on Enums
    --ni-selected-background: yellow;
    --ni-selected-foreground-color: red;
 }
+/*
+Change the hover state of the enum.
+*/
+.EnumColor:hover {
+   color: black;
+   background-color: transparent;
+}
 /*TANK CONTROL*/
 /*
 change the colour of scale of tank control.
@@ -136,4 +143,12 @@ Remove background color from Numeric, String or Timestamp Indicators
 .StringIndicatorBCKTransparent {
     --ni-indicator-background-color: transparent;
     --ni-border: none
+}
+/*Box Decoration*/
+.BoxLine {
+    border: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid white;
 }
